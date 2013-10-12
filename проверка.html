@@ -1,0 +1,41 @@
+<head>
+<title> HZ </title>
+<meta charset="utf-8">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+</head>
+<body>
+<form id="form">
+ Login <input type="text" name="login"> <br/>
+ Password <input type="text" name="password"> <br/>
+ <input type="submit" value="Отправить">
+</form>
+<script>
+ var formName = $("#form").find("input[name=login]")
+ 
+ formName.blur(
+  function(){
+  var b = formName.val();
+  var i1 = b.indexOf("\/");
+  var i2 = b.indexOf("(");
+  var i3 = b.indexOf(")");
+  var i4 = b.indexOf("+");
+  var i5 = b.indexOf("=");
+  var i6 = b.indexOf("*");
+  var i7 = b.indexOf("^");
+  var i8 = b.indexOf("?");
+  var i9 = b.indexOf("/");
+  var i10 = b.indexOf(">");
+  var i11 = b.indexOf("<");
+  var i12 = b.indexOf("{");
+  var i13 = b.indexOf("}");
+  var i14 = b.indexOf("[");
+  var i15 = b.indexOf("]");
+  
+  if ((i1 => 0) || (i2 => 0) || (i3 => 0) || (i4 => 0) || (i1 => 0) || (i5 => 0) || (i6 => 0) || (i7 => 0) || (i8 => 0) || (i9 => 0) || (i10 => 0) || (i11 => 0) || (i12 => 0) ||  (i13 => 0) || (i14 => 0) || (i15 => 0)) {
+ alert("Ты попутал?");
+ }
+  }
+ );
+</script>
+</body>
+</html>
