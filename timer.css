@@ -1,0 +1,65 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+/* ---------------------- Begin TIMER ---------------------- */
+.timer
+{
+	margin: 10px auto;
+	width: 350px;
+
+	overflow: auto;
+}
+
+.timerBlock
+{
+	display: block;
+	float: left;
+	max-width: 110px;
+	min-width: 110px;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+
+}
+
+.timerAtom
+{
+	display: block;
+	width: 63px;
+	height: 63px;
+	clear: both;
+	margin: 10px auto;
+	padding: 7px 7px;
+	
+	border-radius: 10px;
+	
+	box-shadow: 0 -3px 2px #ccc;
+	overflow: hidden;
+}
+.days{background-color: #2DCB74;} .hours{background-color: #3598DB;} .minutes{background-color: #F39C11;}
+
+.timerAtom p
+{
+	text-align: center;
+	margin: 0;
+	font-size: 3em;
+	font-family: 'Fugaz One', cursive;
+	color: #fff;
+	
+	text-shadow: 0 0 0.5px #fff, 1px 1px rgb(30, 134, 77), 2px 2px rgb(30, 134, 77), 3px 3px rgb(30, 134, 77), 4px 4px rgb(30, 134, 77), 5px 5px rgb(30, 134, 77), 6px 6px rgb(30, 134, 77), 7px 7px rgb(30, 134, 77), 8px 8px rgb(30, 134, 77), 9px 9px rgb(30, 136, 78), 10px 10px rgb(31, 138, 79), 11px 11px rgb(31, 140, 80), 12px 12px rgb(32, 143, 82), 13px 13px rgb(32, 145, 83), 14px 14px rgb(33, 147, 84), 15px 15px rgb(33, 150, 86), 16px 16px rgb(34, 152, 87), 17px 17px rgb(34, 154, 88), 18px 18px rgb(35, 157, 90), 19px 19px rgb(35, 159, 91), 20px 20px rgb(36, 161, 92), 21px 21px rgb(36, 163, 93), 22px 22px rgb(37, 166, 95), 23px 23px rgb(37, 168, 96), 24px 24px rgb(38, 170, 97), 25px 25px rgb(38, 173, 99), 26px 26px rgb(39, 175, 100), 27px 27px rgb(39, 177, 101), 28px 28px rgb(40, 180, 103), 29px 29px rgb(40, 182, 104), 30px 30px rgb(41, 184, 105), 31px 31px rgb(41, 186, 106), 32px 32px rgb(42, 189, 108), 33px 33px rgb(42, 191, 109), 34px 34px rgb(43, 193, 110), 35px 35px rgb(43, 196, 112), 36px 36px rgb(44, 198, 113), 37px 37px rgb(44, 200, 114), 38px 38px rgb(45, 203, 116);
+	
+}
+
+.timerBlock>p
+{
+	text-align: center;
+	margin: 0;
+	font-family: 'Fugaz One', cursive;
+	color: #ccc;
+	
+	
+}
+/* ----------------------- End TIMER ----------------------- */
