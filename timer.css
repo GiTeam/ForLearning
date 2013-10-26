@@ -39,7 +39,23 @@ body
 	box-shadow: 0 -3px 2px #ccc;
 	overflow: hidden;
 }
-.days{background-color: #2DCB74;} .hours{background-color: #3598DB;} .minutes{background-color: #F39C11;}
+.days
+{
+	background-color: #2DCB74;
+	text-shadow: 1px 1px #1b7a46, 2px 2px #1b7a46, 3px 3px #1b7a46, 4px 4px #1b7a46, 5px 5px #1b7a46, 6px 6px #1b7a46, 7px 7px #1b7a46, 8px 8px #1b7a46, 9px 9px #1b7a46, 10px 10px #1b7a46, 11px 11px #1b7a46, 12px 12px #1b7a46, 13px 13px #1b7a46, 14px 14px #1b7a46, 15px 15px #1b7d47, 16px 16px #1c8049, 17px 17px #1d844b, 18px 18px #1e874d, 19px 19px #1e8a4f, 20px 20px #1f8e51, 21px 21px #209153, 22px 22px #219555, 23px 23px #219857, 24px 24px #229b59, 25px 25px #239f5b, 26px 26px #24a25d, 27px 27px #24a55e, 28px 28px #25a960, 29px 29px #26ac62, 30px 30px #27b064, 31px 31px #27b366, 32px 32px #28b668, 33px 33px #29ba6a, 34px 34px #2abd6c, 35px 35px #2ac06e, 36px 36px #2bc470, 37px 37px #2cc772, 38px 38px #2dcb74;
+}
+ 
+.hours
+{
+	background-color: #3598DB;
+	text-shadow: 1px 1px #205b83, 2px 2px #205b83, 3px 3px #205b83, 4px 4px #205b83, 5px 5px #205b83, 6px 6px #205b83, 7px 7px #205b83, 8px 8px #205b83, 9px 9px #205b83, 10px 10px #205b83, 11px 11px #205b83, 12px 12px #205b83, 13px 13px #205b83, 14px 14px #205b83, 15px 15px #205d86, 16px 16px #21608a, 17px 17px #22628e, 18px 18px #236591, 19px 19px #246795, 20px 20px #256a99, 21px 21px #266c9c, 22px 22px #276fa0, 23px 23px #2771a4, 24px 24px #2874a7, 25px 25px #2976ab, 26px 26px #2a79af, 27px 27px #2b7cb2, 28px 28px #2c7eb6, 29px 29px #2d81ba, 30px 30px #2e83bd, 31px 31px #2e86c1, 32px 32px #2f88c5, 33px 33px #308bc8, 34px 34px #318dcc, 35px 35px #3290d0, 36px 36px #3392d3, 37px 37px #3495d7, 38px 38px #3598db;
+}
+
+.minutes
+{
+	background-color: #F39C11;
+	text-shadow: 1px 1px #925e0a, 2px 2px #925e0a, 3px 3px #925e0a, 4px 4px #925e0a, 5px 5px #925e0a, 6px 6px #925e0a, 7px 7px #925e0a, 8px 8px #925e0a, 9px 9px #925e0a, 10px 10px #925e0a, 11px 11px #925e0a, 12px 12px #925e0a, 13px 13px #925e0a, 14px 14px #925e0a, 15px 15px #96600a, 16px 16px #9a630a, 17px 17px #9e650a, 18px 18px #a2680b, 19px 19px #a66a0b, 20px 20px #aa6d0b, 21px 21px #ae700c, 22px 22px #b2720c, 23px 23px #b6750c, 24px 24px #ba770c, 25px 25px #be7a0d, 26px 26px #c27d0d, 27px 27px #c67f0d, 28px 28px #ca820e, 29px 29px #ce840e, 30px 30px #d2870e, 31px 31px #d6890e, 32px 32px #da8c0f, 33px 33px #de8f0f, 34px 34px #e2910f, 35px 35px #e69410, 36px 36px #ea9610, 37px 37px #ee9910, 38px 38px #f39c11;
+}
 
 .timerAtom p
 {
@@ -48,8 +64,6 @@ body
 	font-size: 3em;
 	font-family: 'Fugaz One', cursive;
 	color: #fff;
-	
-	text-shadow: 0 0 0.5px #fff, 1px 1px rgb(30, 134, 77), 2px 2px rgb(30, 134, 77), 3px 3px rgb(30, 134, 77), 4px 4px rgb(30, 134, 77), 5px 5px rgb(30, 134, 77), 6px 6px rgb(30, 134, 77), 7px 7px rgb(30, 134, 77), 8px 8px rgb(30, 134, 77), 9px 9px rgb(30, 136, 78), 10px 10px rgb(31, 138, 79), 11px 11px rgb(31, 140, 80), 12px 12px rgb(32, 143, 82), 13px 13px rgb(32, 145, 83), 14px 14px rgb(33, 147, 84), 15px 15px rgb(33, 150, 86), 16px 16px rgb(34, 152, 87), 17px 17px rgb(34, 154, 88), 18px 18px rgb(35, 157, 90), 19px 19px rgb(35, 159, 91), 20px 20px rgb(36, 161, 92), 21px 21px rgb(36, 163, 93), 22px 22px rgb(37, 166, 95), 23px 23px rgb(37, 168, 96), 24px 24px rgb(38, 170, 97), 25px 25px rgb(38, 173, 99), 26px 26px rgb(39, 175, 100), 27px 27px rgb(39, 177, 101), 28px 28px rgb(40, 180, 103), 29px 29px rgb(40, 182, 104), 30px 30px rgb(41, 184, 105), 31px 31px rgb(41, 186, 106), 32px 32px rgb(42, 189, 108), 33px 33px rgb(42, 191, 109), 34px 34px rgb(43, 193, 110), 35px 35px rgb(43, 196, 112), 36px 36px rgb(44, 198, 113), 37px 37px rgb(44, 200, 114), 38px 38px rgb(45, 203, 116);
 	
 }
 
