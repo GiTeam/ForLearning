@@ -6,6 +6,7 @@ a img
 
 body
 {
+	width:100%;
 	color: #111111;
 }
 
@@ -28,21 +29,42 @@ body:before /*тень от панели браузера*/
 
 #header
 {
+	position:fixed;
+	top: 0px;
+	z-index:1;
 	margin: 0 auto;
-	width: 960px;
+	height: 50px;
+	width: 99%;
 	background-color: #D8D8D8;
 	border-radius: 4px;
 }
 
+img
+{
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 40%;
+	height: 100px;
+	width: 300px;
+	
+	background-color: none;
+	z-index: 2;
+}
+
+
 /* ----------------------- END Header ----------------------- */
 
 
-/* --------------------- Begin mainContent --------------------- */
+/* --------------------- Begin contentSlider --------------------- */
 
-#mainContent
+#contentSlider
 {
 	margin: 10px auto;
+	margin-top: 30px;
 	width: 960px;
+	height: 300px;
+	z-index: 0;
 	background-color: #D8D8D8;
 
 	border-radius: 4px;
@@ -51,7 +73,22 @@ body:before /*тень от панели браузера*/
     box-shadow: 0 10px 6px -6px #777;
 }
 
-/* ---------------------- END mainContent ---------------------- */
+/* ---------------------- END contentSlider ---------------------- */
+
+
+/* --------------------- Begin infoContent --------------------- */
+
+#infoContent
+{
+	margin: 10px auto;
+	width: 960px;
+	background-color: #D8D8D8;
+	border-radius: 4px;
+	z-index: 0;
+	
+}
+
+/* ---------------------- END infoContent ---------------------- */
 
 
 /* --------------------- Begin navContent --------------------- */
@@ -62,21 +99,8 @@ body:before /*тень от панели браузера*/
 	width: 960px;
 	background-color: #D8D8D8;
 	border-radius: 4px;
+	z-index: 0;
 	
 }
 
 /* ---------------------- END navContent ---------------------- */
-
-
-/* --------------------- Begin otherContent --------------------- */
-
-#otherContent
-{
-	margin: 10px auto;
-	width: 960px;
-	background-color: #D8D8D8;
-	border-radius: 4px;
-	
-}
-
-/* ---------------------- END otherContent ---------------------- */
