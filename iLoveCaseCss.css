@@ -1,4 +1,5 @@
 header, footer, nav, article, section {display: block;}
+
 a img  
 {  
 	border: none;  
@@ -9,6 +10,8 @@ body
 	width:100%;
 	color: #111111;
 	overflow-x: hidden;
+	margin: 0px;
+	font-size: 14px;
 }
 
 
@@ -28,37 +31,71 @@ body:before /*тень от панели браузера*/
 
 /* ---------------------- Begin Header ---------------------- */
 
-#fixedHeaderBlock
-{
-	position:fixed;
-	top: 0px;
-	z-index: 1;
-	height: 50px;
-	width: 100%;
-}
 
 #header
 {
-	margin: 0 auto;
-	width: 959px;
-	height: 50px;
-	background-color: #D8D8D8;
-	border-radius: 4px;
+	
+	position:fixed;
+	top: 0px;
+	right:0px;
+	z-index: 1;
+	height: 60px;
+	width: 100%;
+	background-color: #E0E0E0;
+	transition: 0.3s;
+	background-image: url('bgnav.jpg');
 }
-img
+
+#header:hover
+{
+	background-color: #EEE;
+	background-image: url('bgnavHover.jpg');
+
+}
+
+img.logotype
 {
 	display: block;
 	position: absolute;
 	top: 0px;
-	left: 40%;
+	left: 38%;
 	height: 100px;
 	width: 300px;
-	
 	background-color: none;
+	
 	z-index: 2;
 }
 
+ul.listNav
+{
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 0;
 
+	list-style-image: none;
+	text-shadow: 0 0 5px rgba(222,222,222, 0.8);
+	font-size: 1.3em;
+}
+
+ul.listNav>li
+{
+	display: inline-block;
+	line-height:18px;
+	padding-bottom: 3px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	cursor: pointer;
+	margin-left: 25px;
+}
+
+li.listNavR
+{
+	display: inline-block;
+	float: right;
+	cursor: pointer;
+	margin-right: 50px;
+}
 /* ----------------------- END Header ----------------------- */
 
 
@@ -67,9 +104,9 @@ img
 #contentSlider
 {
 	margin: 10px auto;
-	margin-top: 55px;
+	margin-top: 75px;
 	width: 960px;
-	height: 300px;
+	height: 360px;
 	z-index: 0;
 	background-color: #D8D8D8;
 
@@ -87,9 +124,9 @@ img
 #infoContent
 {
 	margin: 10px auto;
-	width: 960px;
+	width: 100%;
 	background-color: #D8D8D8;
-	border-radius: 4px;
+
 	z-index: 0;
 	
 }

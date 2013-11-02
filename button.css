@@ -20,7 +20,8 @@ button
 	height: 50px;
 	border: 2px solid #333;
 	background-color: none;
-	border-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
 	text-align: center;
 	color: #333;
 
