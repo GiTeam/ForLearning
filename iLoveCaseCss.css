@@ -1,6 +1,6 @@
 header, footer, nav, article, section {display: block;}
 
-a img  
+a>img  
 {  
 	border: none;  
 } 
@@ -41,15 +41,15 @@ body:before /*тень от панели браузера*/
 	z-index: 1;
 	height: 60px;
 	width: 100%;
-	background-color: #E0E0E0;
+	background-color: #444;
 	transition: 0.3s;
-	background-image: url('bgnav.jpg');
+	background-image: url('designImg/sobg.png');
 }
 
 #header:hover
 {
-	background-color: #EEE;
-	background-image: url('bgnavHover.jpg');
+	background-color: #333;
+	background-image: none;
 
 }
 
@@ -70,23 +70,29 @@ ul.listNav
 {
 	width: 960px;
 	margin: 0 auto;
-	margin-top: 20px;
 	padding: 0;
 
 	list-style-image: none;
-	text-shadow: 0 0 5px rgba(222,222,222, 0.8);
+	text-shadow: 0 0 6px rgba(222,222,222, 0.8);
 	font-size: 1.3em;
+	
+	color: #EEE;
 }
 
 ul.listNav>li
 {
 	display: inline-block;
-	line-height:18px;
 	padding-bottom: 3px;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: 600;
 	cursor: pointer;
 	margin-left: 25px;
+	background-color: #444;
+	padding: 7px;
+	padding-top: 32px;
+	border-radius: 4px;
+	border: 1px;
+	border-color: #555;
 }
 
 li.listNavR
@@ -94,7 +100,7 @@ li.listNavR
 	display: inline-block;
 	float: right;
 	cursor: pointer;
-	margin-right: 50px;
+	margin-right: 25px;
 }
 /* ----------------------- END Header ----------------------- */
 
@@ -116,6 +122,24 @@ li.listNavR
     box-shadow: 0 10px 6px -6px #777;
 }
 
+.prev
+{
+	display: block;
+	float: left;
+	cursor: pointer;
+	margin-top: 100px;
+	margin-left: 3px;
+}
+.next
+{
+	display: block;
+	float: right;
+	cursor: pointer;
+	vertical-align: middle;
+	margin-top: 100px;
+	margin-right: 3px;
+	
+}
 /* ---------------------- END contentSlider ---------------------- */
 
 
@@ -126,11 +150,39 @@ li.listNavR
 	margin: 10px auto;
 	width: 100%;
 	background-color: #D8D8D8;
-
-	z-index: 0;
+	background-image: url('designImg/sobg.png');
+	overflow: auto;
+}
+.ul1
+{
+	display: block;
+	width: 960px;
+	margin: 0 auto;
+	list-style-image: none;
+	margin-top: 10px;
+}
+.ul2
+{
+	display: block;
+	width: 960px
+	margin: 0 auto;
+	list-style-image: none;
+}
+.ul1>li, .ul2>li
+{
+	display: inline-block;
+	
+	background-color: #444;
+	
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	font-size: 1.3em;
+	color: #eee;
+	
+	cursor: pointer;
+	padding: 7px;
 	
 }
-
 /* ---------------------- END infoContent ---------------------- */
 
 
