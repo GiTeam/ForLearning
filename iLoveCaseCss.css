@@ -198,7 +198,7 @@ li.listNavR
 {
 	margin: 10px auto;
 	width: 960px;
-	height: 700px;
+	height: 750px;
 	/*border: 2px solid black;*/
 	background-image: url(aboutbg.png);
 	background-color: #e8e8e8;
@@ -256,7 +256,7 @@ p
 	
 	margin-top: 20px;
 	width: 300px;
-	border: 3px solid #3877e0;
+	border: 3px solid #5DB6E0;
 	border-radius: 10px;
 	background-color: white;
 	text-align: center;
@@ -268,7 +268,7 @@ p
 
 .second { float: right; clear:left; margin-right: 140px; height: 80px; padding-top: 30px; }
 
-.third { float: left; clear: right; margin-left: 10px; height: 50px; padding: 20px 0 20px 0; }
+.third { float: left; clear: right; margin-left: 10px; height: 50px; padding: 20px 10px 7px 10px; }
 
 .fourth { float: right; clear: left; margin-right: 180px; height: 60px; padding-top: 20px; }
 
@@ -277,11 +277,12 @@ p
 	display: block;
 	width:100%;	
 	/*border: 2px solid black;*/
-	padding-top: 27px;
+	padding-top: 67px;
 	text-align: center;
 	color: #333;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: 600;
 	text-shadow: 1px 1px 2px #5DB6E0;
+	font-size: 2em;
 }
 /* ---------------------- END aboutWork ---------------------- */
