@@ -198,7 +198,7 @@ li.listNavR
 {
 	margin: 10px auto;
 	width: 960px;
-	height: 600px;
+	height: 700px;
 	/*border: 2px solid black;*/
 	background-image: url(aboutbg.png);
 	background-color: #e8e8e8;
@@ -218,9 +218,26 @@ li.listNavR
 	margin-left: 50px;
 	text-align: left;
 	
-	
-	
 }
+
+p
+{
+	display: block;
+	/*border: 2px solid black;*/
+	
+	margin: 0;
+	clear:none;
+	float:left;
+	font-size: 5em;
+}
+
+.one { clear: left; float:left; margin-top: 20px; margin-left: 30px; }
+
+.two { clear: left; float:right; margin-top: 20px; margin-right: 10px; }
+
+.three { clear: right; float:left; margin-top: -10px; margin-left: 30px; }
+
+.four { clear: left; float: right; margin-top: 0; margin-left: 10px; }
 
 #aboutWork ul li
 {
@@ -229,17 +246,17 @@ li.listNavR
 
 #aboutWork ul li:before
 {
-	content: "ʨ ";
+	content: url("arrow.png") " ";
 }
 
 .BlockInSnake
 {
 	display: block;	
-	clear: both;
+	clear: none;
 	
 	margin-top: 20px;
 	width: 300px;
-	border: 3px double black;
+	border: 3px solid #3877e0;
 	border-radius: 10px;
 	background-color: white;
 	text-align: center;
@@ -247,13 +264,13 @@ li.listNavR
 	
 }
 
-.first { float:left; margin-left: 60px; height: 110px; padding-top: auto; }
+.first { float:left; clear:right; margin-left: 10px; height: 110px; padding: auto; }
 
-.second { float: right; margin-right: 140px; height: 80px; padding-top: 30px; }
+.second { float: right; clear:left; margin-right: 140px; height: 80px; padding-top: 30px; }
 
-.third { float: left; margin-left: 80px; height: 50px; padding-top: 25px; }
+.third { float: left; clear: right; margin-left: 10px; height: 50px; padding-top: 25px; }
 
-.fourth { float: right; margin-right: 180px; height: 60px; padding-top: 20px; }
+.fourth { float: right; clear: left; margin-right: 180px; height: 60px; padding-top: 20px; }
 
 .h2class
 {
