@@ -268,7 +268,7 @@ p
 
 .second { float: right; clear:left; margin-right: 140px; height: 80px; padding-top: 30px; }
 
-.third { float: left; clear: right; margin-left: 10px; height: 50px; padding-top: 25px; }
+.third { float: left; clear: right; margin-left: 10px; height: 50px; padding: 20px 0 20px 0; }
 
 .fourth { float: right; clear: left; margin-right: 180px; height: 60px; padding-top: 20px; }
 
