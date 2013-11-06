@@ -198,9 +198,29 @@ li.listNavR
 {
 	margin: 10px auto;
 	width: 960px;
-	background-color: #E8E8E8;
+	background-image: url(aboutbg.png);
+	background-color: #e8e8e8;
 	border-radius: 4px;
 	z-index: 0;
+	
+	font-family: 'Marck Script';
+	
+}
+
+#aboutWork ol
+{
+	font-family: 'Marck Script', cursive;
+	font-weight: 500;
+	font-size: 1.25em;
+}
+
+.2stBlockInSnake
+{
+	display: block;
+	clear: both;
+	float: right; 
+	
+	color: white;
 }
 
 .h2class
