@@ -8,7 +8,7 @@ body
 .timer
 {
 	margin: 10px auto;
-	width: 350px;
+	width: 440px;
 
 	overflow: auto;
 }
@@ -21,8 +21,6 @@ body
 	min-width: 110px;
 	margin: 0;
 	padding: 0;
-	background-color: #fff;
-
 }
 
 .timerAtom
@@ -36,7 +34,7 @@ body
 	
 	border-radius: 10px;
 	
-	box-shadow: 0 -3px 2px #ccc;
+	box-shadow: 0 -3px 2px #666;
 	overflow: hidden;
 }
 .days
@@ -56,14 +54,19 @@ body
 	background-color: #F39C11;
 	text-shadow: 1px 1px #925e0a, 2px 2px #925e0a, 3px 3px #925e0a, 4px 4px #925e0a, 5px 5px #925e0a, 6px 6px #925e0a, 7px 7px #925e0a, 8px 8px #925e0a, 9px 9px #925e0a, 10px 10px #925e0a, 11px 11px #925e0a, 12px 12px #925e0a, 13px 13px #925e0a, 14px 14px #925e0a, 15px 15px #96600a, 16px 16px #9a630a, 17px 17px #9e650a, 18px 18px #a2680b, 19px 19px #a66a0b, 20px 20px #aa6d0b, 21px 21px #ae700c, 22px 22px #b2720c, 23px 23px #b6750c, 24px 24px #ba770c, 25px 25px #be7a0d, 26px 26px #c27d0d, 27px 27px #c67f0d, 28px 28px #ca820e, 29px 29px #ce840e, 30px 30px #d2870e, 31px 31px #d6890e, 32px 32px #da8c0f, 33px 33px #de8f0f, 34px 34px #e2910f, 35px 35px #e69410, 36px 36px #ea9610, 37px 37px #ee9910, 38px 38px #f39c11;
 }
-
+.seconds
+{
+	background-color: #F39C11;
+	text-shadow: 1px 1px #925e0a, 2px 2px #925e0a, 3px 3px #925e0a, 4px 4px #925e0a, 5px 5px #925e0a, 6px 6px #925e0a, 7px 7px #925e0a, 8px 8px #925e0a, 9px 9px #925e0a, 10px 10px #925e0a, 11px 11px #925e0a, 12px 12px #925e0a, 13px 13px #925e0a, 14px 14px #925e0a, 15px 15px #96600a, 16px 16px #9a630a, 17px 17px #9e650a, 18px 18px #a2680b, 19px 19px #a66a0b, 20px 20px #aa6d0b, 21px 21px #ae700c, 22px 22px #b2720c, 23px 23px #b6750c, 24px 24px #ba770c, 25px 25px #be7a0d, 26px 26px #c27d0d, 27px 27px #c67f0d, 28px 28px #ca820e, 29px 29px #ce840e, 30px 30px #d2870e, 31px 31px #d6890e, 32px 32px #da8c0f, 33px 33px #de8f0f, 34px 34px #e2910f, 35px 35px #e69410, 36px 36px #ea9610, 37px 37px #ee9910, 38px 38px #f39c11;
+}
 .timerAtom p
 {
 	text-align: center;
 	margin: 0;
-	font-size: 3em;
+	font-size: 48px;
 	font-family: 'Fugaz One', cursive;
 	color: #fff;
+	line-height: 60px;
 	
 }
 
